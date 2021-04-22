@@ -1,0 +1,44 @@
+Metadata-Version: 2.0
+Name: GameOfLife
+Version: 0.1.3
+Summary: Conway's Game of Life - Cellular Automata.
+Home-page: https://github.com/JnyJny/GameOfLife
+Author: Erik O'Shaughnessy
+Author-email: erik.oshaughnessy@gmail.com
+License: MIT
+Download-URL: https://github.com/JnyJny/GameOfLife/archive/0.1.3.tar.gz
+Keywords: conway game life cellular automata simulation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX
+Classifier: Environment :: Console :: Curses
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Life
+Classifier: Topic :: Games/Entertainment :: Simulation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+
+
+GameOfLife is a python3 package that provides two classes
+that together implement Conway's Game of Life.
+
+Install the GameOfLife package using pip::
+
+   $ sudo pip3 install GameOfLife
+
+
+Or clone the git repository::
+
+   $ git clone https://github.com/JnyJny/GameOfLife.git
+   $ cd GameOfLife
+   $ sudo python3 setup.py install
+
+Also included in the package are:
+
+CGameOfLife: displays the simulation in a terminal window using curses.
+PGameOfLife: displays the simulation in a PyGame window with pretty pictures.
+
+
