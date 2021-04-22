@@ -1,5 +1,0 @@
-#!c:\users\kiga\pycharmprojects\gameoflifepython\venv\scripts\python.exe
-
-from nanolife.LifeGame import LifeGame
-
-LifeGame().run()
